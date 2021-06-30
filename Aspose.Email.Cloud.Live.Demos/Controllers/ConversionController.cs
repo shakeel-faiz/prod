@@ -26,8 +26,8 @@ namespace Aspose.Email.Cloud.Live.Demos.Controllers
             var model = new ViewModel(this, nameof(Conversion))
             {
                 SaveAsComponent = true,
-                MaximumUploadFiles = 3,
-                UseSorting = true
+                MaximumUploadFiles = 1,
+                UseSorting = false
             };
 
             return View(model);
